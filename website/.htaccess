@@ -1,0 +1,8 @@
+//Rewrite to www Options +FollowSymLinks RewriteEngine on RewriteCond
+%{HTTP_HOST} ^wisataingalek.rf.gd[nc] RewriteRule ^(.*)$
+http://www.wisataingalek.rf.gd/$1 [r=301,nc] //301 Redirect Old File Redirect
+301 /index.php //301 Redirect Entire Directory RedirectMatch 301 /webgisv2(.*)
+/htdocs/$1 //Prevent viewing of .htaccess file
+<Files .htaccess> order allow,deny deny from all </Files>
+
+//Prevent directory listings Options All -Indexes

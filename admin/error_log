@@ -1,0 +1,6 @@
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Notice:  Undefined index: login in /home/wisatai3/public_html/layout/_header.php on line 12
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/wisatai3/public_html/layout/_header.php on line 12
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/wisatai3/public_html/helper/connection.php on line 7
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/wisatai3/public_html/dashboard/index.php on line 5
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/wisatai3/public_html/dashboard/index.php on line 7
+[26-Jul-2022 21:24:38 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/wisatai3/public_html/dashboard/index.php on line 7
